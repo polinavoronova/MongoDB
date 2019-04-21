@@ -2,15 +2,119 @@ body {
     margin: 0;
     padding: 0;
     font-family: Akzidenz Grotesk BQ Light, Helvetica, Arial, serif;
-
+    color: rgba(53, 52, 52, 1);
+    box-sizing: border-box;
 }
-headleft {
+header {
+    margin: 25px 20px;
+}
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+}
+.nav li {
+    display: block;
+}
+.nav a {
+    text-decoration: none;
+    margin-right: 35px;
+    color: rgba(53, 52, 52, 1);
+}
+.headleft {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 45%;
+}
+.headleft a {
+    flex-wrap: nowrap;
+    font-size: 15px;
+}
+.headright {
+    display: inline-flex;
+    width: 45%;
+}
+.headright a {
+    flex-wrap: nowrap;
+    font-size: 12px;
+}
+.button {
+    font-weight: bold;
+    text-align: center;
+    padding: 17px 25px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.button_green {
+    color: white;
+    background-color: rgba(48, 138, 48, 1);
+}
+.button_white {
+    color:  rgba(48, 138, 48, 1);
+    background-color: white;
+    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);
+}
+.banner {
+    background-image: url(../images/banner.JPG);
+    color: white;
     float: left;
+    height: 855px;
+    margin:0px;
+    padding: 0px;
 }
-logo img {
-    height: 25px;
-    width: 120px;
+.content {
+    width: 28%;
+    margin-left: 365px;
+    margin-top: 155px;
+    margin-bottom: 235px;
 }
-nav {
-    color: red;
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0px;
+    line-height: 1.45em;
+}
+.line {
+    font-weight: bold;
+    margin: 0px;
+}
+.banner p {
+    font-size: 18px;
+    padding-top: 13px;
+}
+.advantages {
+    text-align: center;
+    margin: 80px auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+h2 {
+    color:  rgb(27, 85, 27);
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px;
+}
+.advantages_title {
+    width: 30%;
+    margin: 0 auto;
+}
+.advantages_title p {
+    font-size: 21px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.container_small {
+    width: 325px;
+    margin: 15px;
+}
+.container_small p {
+    font-size: 17px;
+    line-height: 1.65em;
 }
