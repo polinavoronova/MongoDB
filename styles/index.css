@@ -123,12 +123,12 @@ h3 {
 }
 .platform p {
     font-size: 21px;
+    color: red;
 }
 .platform img {
     float: left;
     margin-left: 280px;
 }
-.platform_description {
-    padding: 70px 0px;
-    padding-left: 30px;
+.customer {
+    text-align: center;
 }
