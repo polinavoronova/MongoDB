@@ -57,30 +57,30 @@ header {
 .banner {
     background-image: url(../images/banner.JPG);
     color: white;
-    float: left;
     height: 855px;
     margin:0px;
     padding: 0px;
+    text-align: left;
 }
 .content {
-    width: 28%;
-    margin-left: 365px;
-    margin-top: 155px;
-    margin-bottom: 235px;
+    width: 565px;
+    margin-left: 360px;
+    margin-top: 10px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: normal;
     margin: 0px;
-    line-height: 1.45em;
+    line-height: 1.35em;
 }
 .line {
     font-weight: bold;
     margin: 0px;
+    padding-top: 150px;
 }
 .banner p {
     font-size: 18px;
-    padding-top: 13px;
+    line-height: 1.55em;
 }
 .advantages {
     text-align: center;
@@ -98,13 +98,12 @@ h2 {
     font-size: 28px;
     margin: 0px;
 }
-.advantages_title {
+.title {
     width: 30%;
     margin: 0 auto;
 }
-.advantages_title p {
-    font-size: 21px;
-}
+.title p {
+    font-size: 21px; 
 h3 {
     font-size: 18px;
     font-weight: bold;
@@ -117,4 +116,19 @@ h3 {
 .container_small p {
     font-size: 17px;
     line-height: 1.65em;
+}
+.platform {
+    text-align: left;
+    background-color: rgba(245, 243, 243, 1);
+}
+.platform p {
+    font-size: 21px;
+}
+.platform img {
+    float: left;
+    margin-left: 280px;
+}
+.platform_description {
+    padding: 70px 0px;
+    padding-left: 30px;
 }
