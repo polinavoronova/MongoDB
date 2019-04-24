@@ -93,7 +93,7 @@ h1 {
     margin-right: 360px;
 }
 h2 {
-    color:  rgb(27, 85, 27);
+    color:  rgba(27, 85, 27, 1);
     font-weight: bold;
     font-size: 28px;
     margin: 0px;
@@ -103,7 +103,8 @@ h2 {
     margin: 0 auto;
 }
 .title p {
-    font-size: 21px; 
+    font-size: 21px;
+}
 h3 {
     font-size: 18px;
     font-weight: bold;
@@ -123,12 +124,53 @@ h3 {
 }
 .platform p {
     font-size: 21px;
-    color: red;
+    margin-bottom: 45px; 
 }
 .platform img {
     float: left;
     margin-left: 280px;
 }
+.platform_description {
+    padding-top: 110px;
+    padding-bottom: 200px;
+}
 .customer {
     text-align: center;
+}
+footer {
+    color: white;
+}
+.footer_head {
+    background-color: rgba(48, 138, 48, 1);
+    display:flex;
+    justify-content: space-between;
+    padding: 60px 200px 130px 200px;
+}
+h5 {
+    margin: 0px 0px 9px;
+}
+.footer_body {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 200px 20px 150px;
+}
+.footer_body_nav {
+    list-style-type: none;
+}
+.footer_body_nav ul {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.7em;
+}
+.footer_body_nav li {
+    display: block;
+}
+.footer_body_nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.social i {
+    margin-right: 10px;
 }
